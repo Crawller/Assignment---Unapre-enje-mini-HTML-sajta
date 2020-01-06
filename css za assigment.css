@@ -1,0 +1,128 @@
+/*
+1. elemente stranica grupisati korišćenjem elemenata za grupisanje;
+2. glavnu sekciju sajta koncipirati u dve kolone; u levoj koloni treba da se nađe navigacija sa linkovima do različitih stranica, dok je desna kolona rezervisana za prikaz sadržaja;
+3. urediti osobine fontova (porodica, stil, veličina...) po sopstvenom nahođenju;
+4. listu koja se nalazi na dnu stranice Literary Work pretvoriti u tabelu sa sledećim kolonama: naslov dela, izdavač, mesto, godina.
+*/
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Georgia;
+  color:  rgb(88, 14, 14);
+  text-align: center;
+}
+
+body {background-color: ivory;
+ }
+
+ul {
+  font-size: 20px;
+}
+
+ /*css "Main page"*/
+
+nav {
+padding: 16px 0 16px 0;
+font-size: 20px;
+}
+
+section {
+  float: right;
+        width: 600px;
+        padding-right: 100px;
+        padding-top: 60px;
+        margin-right: 100px;
+        box-sizing: border-box;
+}
+
+aside {
+  float: left;
+  width: 360px;
+  padding-left: 150px;
+  padding-top: 40px;
+  margin-left: 50px;
+}
+
+#main_page {
+font-size: 22px;
+padding:0 10px 0 0;
+margin-top: 2px;
+}
+
+/*css "Early life and education"*/
+
+#container_1 {
+  float: left;
+  width: 360px;
+  padding-left: 150px;
+  padding-top: 50px;
+  margin-left: 50px;
+  
+}
+
+#container_2 {
+  float: right;
+        width: 600px;
+        padding-right: 100px;
+        padding-top: 50px;
+        margin-right: 100px;
+}
+
+/*css "Pupin coils*/
+
+#container_3 {
+  float: left;
+  width: 360px;
+  padding-left: 150px;
+  padding-top: 50px;
+  margin-left: 50px;
+  
+}
+
+#container_4 {
+  float: right;
+        width: 600px;
+        padding-right: 100px;
+        padding-top: 50px;
+        margin-right: 100px;
+}
+
+
+/*css tabela*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(88, 14, 14);
+  }
+
+  th {
+    padding: 18px;
+  }
+
+  td {
+    padding: 12px;
+  }
+
+  th,
+  td {
+    border: solid 1px #0f0101;
+  }
+
+  tr {
+    background-color: #EDEDED;
+  }
+
+  tr.even {
+    background-color: #F7F7F7;
+  }
+
+  #heading {
+    background-color: rgb(131, 36, 7);
+    color: white;
+  }
